@@ -1,0 +1,94 @@
+body {
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    font-size: 16px;
+    background-color: DeepSkyBlue;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: DeepSkyBlue;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: DeepSkyBlue;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: DeepSkyBlue;
+}
+  
+a:active {
+    text-decoration: underline;
+    color: DeepSkyBlue
+}
+
+.Form {
+    display: flex;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    width: 70%;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Left {
+    background-color: DeepSkyBlue;
+    width: 40%;
+    padding: 80px 20px 20px 30px;
+}
+
+.Right {
+    background-color: white;
+    width: 60%;
+    padding: 10px 50px 20px 50px;
+}
+
+.InputForm {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 50px 20px 20px;
+}
+
+#welcome {
+    text-align: justify;
+    font-size: 16px;
+    line-height:2;
+    color: white;
+}
+
+#text {
+    text-align: justify;
+    font-size: 16px;
+    line-height:2;
+    color: DarkGray;
+}
+
+#hr {
+    background-color: white;
+    width: 100px;
+    height: 10px;
+}
+
+#hrs {
+    background-color: DeepSkyBlue;
+    width: 100px;
+    height: 10px;
+}

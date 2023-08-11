@@ -1,0 +1,276 @@
+body {
+    background-image: url("5570863.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    position: absolute;
+    top: 1px;
+    text-align: left;
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+img {
+    width: 95%;
+    height: 570px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+td {
+    border: none;
+}
+
+input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+li {
+    cursor: pointer;
+    display: inline;
+    font-size: 16px;
+}
+
+nav {
+    text-align:center;
+    word-spacing: 30px;
+}
+
+button {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+  
+a:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.Background {
+    box-shadow: 15px 15px LightGrey;
+    border-radius: 25px;
+    border: 1px solid;
+    position: absolute;
+    width: 70%;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.image {
+    background-color: Cyan;
+    position: absolute;
+    width: 48.5%;
+    height: 570px;
+    margin: auto;
+    padding: 10px;
+}
+
+.form {
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    width: 48.5%;
+    height: 570px;
+    padding: 10px;
+}
+
+.ForgetPassword {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.Button {
+    text-align: center;
+}
+
+#SingIn {
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+}
+
+#SingIn:link {
+    background-color: blue;
+}
+
+#SingIn:visited {
+    background-color: blue;
+}
+
+#SingIn:hover {
+    border: none;
+    background-color: Lime;
+}
+
+#SingIn:active {
+    border: none;
+    background-color: Lime;
+}
+
+#CreateAccount {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+#CreateAccount:link {
+    background-color: white;
+}
+
+#CreateAccount:visited  {
+    background-color: white;
+}
+
+#CreateAccount:hover {
+    box-shadow: 15px 15px LightGrey;
+    background-color: white;
+}
+
+#CreateAccount:active  {
+    box-shadow: 15px 15px LightGrey;
+    background-color: white;
+}
+
+.Animation {
+    width: 75%;
+    height: 10px;
+    margin-left: 70px;
+    animation: animationZ 2.5s linear infinite alternate;
+}
+
+@keyframes animationZ {
+    0% {
+        background: Blue;
+    }
+    20% {
+        background: DeepPink;
+    }
+    40% {
+        background: Red;
+    }
+    60% {
+        background: RoyalBlue;
+    }
+    80% {
+        background: Gray;
+    }
+    100% {
+        background: Black;
+    }
+}
+
+#Facebook:link {
+    color: black;
+}
+
+#Facebook:visited {
+    color: black;
+}
+
+#Facebook:hover {
+    color: Blue;
+}
+
+#Facebook:active {
+    color: Blue;
+}
+
+#Instagram:link {
+    color: black;
+}
+
+#Instagram:visited {
+    color: black;
+}
+
+#Instagram:hover {
+    color: DeepPink;
+}
+
+#Instagram:active {
+    color: DeepPink;
+}
+
+#YouTuBe:link {
+    color: black;
+}
+
+#YouTuBe:visited {
+    color: black;
+}
+
+#YouTuBe:hover {
+    color: red;
+}
+
+#YouTuBe:active {
+    color: red;
+}
+
+#Discord:link {
+    color: black;
+}
+
+#Discord:visited {
+    color: black;
+}
+
+#Discord:hover {
+    color: RoyalBlue;
+}
+
+#Discord:active {
+    color: RoyalBlue;
+}
+
+#Github:link {
+    color: black;
+}
+
+#Github:visited {
+    color: black;
+}
+
+#Github:hover {
+    color: black;
+}
+
+#Github:active {
+    color: black;
+}
